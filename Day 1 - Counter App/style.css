@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Calculator';
+    src: url('./fonts/Calculator.ttf');
+}
+
+.container {
+margin: 50px;
+text-align: center;
+align-items: center;
+}
+
+#resetBtn {
+    justify-content: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+#increaseBtn, #decreaseBtn {
+    margin-top: 10px;
+    padding: 22px;
+    font-family: 'Calculator', sans-serif;
+}
+
+
+body, button {
+    font-family: 'Calculator', sans-serif;
+    font-size: 2em;
+}
+
+button {
+    color: white;
+    border: none;
+    background-color: black;
+    border-radius: 8px;
+    
+}
+
+label {
+    font-size: 5em;
+}
